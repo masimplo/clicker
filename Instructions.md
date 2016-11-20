@@ -19,3 +19,12 @@
 
 ### Final result:
 ![Result](https://www.dropbox.com/s/mghkqa1jjypl2lj/Screenshot%202016-11-20%2022.47.52.png?dl=0)
+
+# Discussion
+
+1. what would you do if you wanted to affect the styling of every button in the application? What about specific pages, platforms etc.
+2. if something, in the framework, does not work as documented, what would you do?
+3. Did you find something about the way everything works hard/inefficient?
+4. How would you clean up things if given the time?
+5. what else would you test in our examples?
+6. how do you think you could test the ui?
