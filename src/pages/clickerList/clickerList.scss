@@ -12,4 +12,9 @@ clicker-list {
     }
   }
 
+  // extra points
+  .copyright:before {
+    content: ":: ";
+    font-style: normal;
+  }
 }
