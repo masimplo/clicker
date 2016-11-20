@@ -3,5 +3,13 @@ clicker-list {
     // requirement 2
     text-align: right;
     margin-right: 5%;
+
+    // requirement 3
+    font-style: italic;
+    font-size: smaller;
+    a {
+      text-decoration: none;
+    }
   }
+
 }
