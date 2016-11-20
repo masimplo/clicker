@@ -4,6 +4,7 @@ import { ClickersService } from '../../services';
 
 @Component({
   templateUrl: 'clickerList.html',
+  selector: 'clicker-list',
 })
 
 export class ClickerList {
