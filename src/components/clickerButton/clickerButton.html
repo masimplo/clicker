@@ -1,4 +1,4 @@
 <button ion-button icon-left block outline (click)="clickerService.doClick(clicker.getId())">
-  <ion-icon name="power"></ion-icon>
+  <ion-icon [name]="clicker.getIcon()"></ion-icon>
   {{clicker.getName()}} ({{clicker.getCount()}})
 </button>
