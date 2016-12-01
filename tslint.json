@@ -28,15 +28,18 @@
       180
     ],
     "member-access": true,
-    "member-ordering": [false],
+    "member-ordering": [
+      false
+    ],
     "no-any": false,
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
     "no-consecutive-blank-lines": true,
-    "no-console": [false],
+    "no-console": [
+      false
+    ],
     "no-construct": false,
-    "no-constructor-vars": true,
     "no-debugger": true,
     "no-duplicate-key": true,
     "no-duplicate-variable": true,
@@ -53,7 +56,9 @@
     "no-unused-variable": [
       true,
       "check-parameters",
-      { "ignore-pattern": "^ng*|^on*" }
+      {
+        "ignore-pattern": "^ng*|^on*"
+      }
     ],
     "no-use-before-declare": true,
     "no-var-keyword": true,
@@ -79,7 +84,9 @@
         "singleline": "never"
       }
     ],
-    "triple-equals": [true],
+    "triple-equals": [
+      true
+    ],
     "typedef": [
       true,
       "call-signature",

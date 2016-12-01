@@ -14,7 +14,7 @@
       <clicker-button [clicker]="clicker"></clicker-button>
     </ion-col>
     <ion-col>
-      <button ion-button block color="danger" outline (click)="clickerService.removeClicker(clicker.id)">
+      <button ion-button block color="danger" outline (click)="onDeleteClicker(clicker)">
         <ion-icon name="trash"></ion-icon></button>
     </ion-col>
   </ion-row>
