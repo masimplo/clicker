@@ -1,0 +1,25 @@
+cv-placeholder {
+  .content{
+    background: #eee;
+    text-align: center;
+  }
+
+  .image-container{
+    h1 {
+      font-weight: bold;
+    }
+    img {
+      margin-top: -5px;
+      width: 75%;
+    }
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 30px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: left;
+  }
+}
