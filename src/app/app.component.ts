@@ -1,7 +1,8 @@
-import { Component, ViewChild }          from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Platform, MenuController, Nav } from 'ionic-angular';
-import { ClickerList, Page2 }            from '../pages';
-import { environment }                   from '../environments/environment';
+import { ClickerList, Page2 } from '../pages';
+import { environment } from '../environments/environment';
+import { Placeholder } from '../pages/placeholder/placeholder';
 
 @Component({
   templateUrl: 'app.html',
@@ -26,6 +27,7 @@ export class ClickerApp {
     // set our app's pages
     this.pages = [
       { title: 'Clickers', component: ClickerList },
+      { title: 'Placeholder', component: Placeholder },
       { title: 'Goodbye Ionic', component: Page2 },
     ];
   }

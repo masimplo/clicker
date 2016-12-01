@@ -1,8 +1,9 @@
-import { NgModule }                        from '@angular/core';
-import { IonicApp, IonicModule }           from 'ionic-angular';
-import { ClickerApp }                      from './app.component';
+import { NgModule } from '@angular/core';
+import { IonicApp, IonicModule } from 'ionic-angular';
+import { ClickerApp } from './app.component';
 import { ClickerList, PagesModule, Page2 } from '../pages';
 import { ClickersService, StorageService } from '../services';
+import { Placeholder } from '../pages/placeholder/placeholder';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { ClickersService, StorageService } from '../services';
     ClickerApp,
     ClickerList,
     Page2,
+    Placeholder
   ],
-  providers: [ ClickersService, StorageService ],
+  providers: [ClickersService, StorageService],
 })
 
-export class AppModule {}
+export class AppModule { }
